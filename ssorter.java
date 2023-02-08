@@ -38,13 +38,8 @@ public class ssorter {
     }
  
     /* A utility function to print array of size n*/
-    static void printArray(int arr[])
-    {
-        int n = arr.length;
-        for (int i = 0; i < n; ++i)
-            System.out.print(arr[i] + " ");
- 
-        System.out.println();
+    public void sort(int[] array){
+        insertionSort(array); 
     }
 
     // this is a comment to check if the latest version happend
