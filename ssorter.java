@@ -39,7 +39,7 @@ public class ssorter {
  
     /* A utility function to print array of size n*/
     public void sort(int[] array){
-        insertionSort(array); 
+        selectionSort(array); 
     }
 
     // this is a comment to check if the latest version happend
