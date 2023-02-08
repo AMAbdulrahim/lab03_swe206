@@ -46,8 +46,5 @@ public class ssorter {
     // this might possibly be the last comment.
     
 
-public void sort(int[] array){
-    selectionSort(array);
 
-}
 }
